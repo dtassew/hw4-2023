@@ -51,43 +51,31 @@ nav a:focus{
   }
 
   /* Requirement 8 code here -- Do not remove this comment. */
-  .about{
+  .about, .about-image{
     grid-row: 2 / span 1;
   }
-  .clients{
+  .clients, .clients-image{
     grid-row: 3 / span 1;
   }
-  .method{
+  .method, .method-image{
     grid-row: 4 / span 1;
   }
-  .contact{
+  .contact, .contact-image{
     grid-row: 5 / span 1;
   }
-  .about-image{
-    grid-row: 2 / span 1;
-  }
-  .clients-image{
-    grid-row: 3 / span 1;
-  }
-  .method-image{
-    grid-row: 4 / span 1;
-  }
-  .contact-image{
-    grid-row: 5 / span 1;
-  }
-
+  
   /* Requirement 9 code here -- Do not remove this comment. */
 
   .text{
     align-self: center;
-    max-height: 30vmin;
+    max-height: 40vh;
     overflow: scroll;
   }
 
 
   /*Add the media query here.  Make sure to */
 
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 800px){
   nav{
     padding-top: 35px;
     /* Requirement 10 code here -- Do not remove this comment. */
